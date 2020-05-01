@@ -16,8 +16,8 @@ export function fieldToSelect({
 }: SelectProps): MuiSelectProps {
   return {
     disabled: disabled ?? isSubmitting,
-    ...props,
     ...field,
+    ...props,
   };
 }
 

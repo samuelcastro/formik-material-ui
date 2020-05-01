@@ -40,8 +40,8 @@ export function fieldToCheckbox({
   return {
     disabled: disabled ?? isSubmitting,
     indeterminate,
-    ...props,
     ...field,
+    ...props,
   };
 }
 

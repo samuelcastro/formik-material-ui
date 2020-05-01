@@ -15,8 +15,8 @@ export function fieldToRadioGroup({
   ...props
 }: RadioGroupProps): MuiRadioGroupProps {
   return {
-    ...props,
     ...field,
+    ...props,
   };
 }
 

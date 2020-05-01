@@ -36,8 +36,8 @@ export function fieldToSwitch({
 
   return {
     disabled: disabled ?? isSubmitting,
-    ...props,
     ...field,
+    ...props,
   };
 }
 

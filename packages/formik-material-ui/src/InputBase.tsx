@@ -16,8 +16,8 @@ export function fieldToInputBase({
 }: InputBaseProps): MuiInputBaseProps {
   return {
     disabled: disabled ?? isSubmitting,
-    ...props,
     ...field,
+    ...props,
   };
 }
 

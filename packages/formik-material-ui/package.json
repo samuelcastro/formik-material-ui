@@ -1,6 +1,6 @@
 {
-  "name": "formik-material-ui",
-  "version": "2.0.0-beta.1",
+  "name": "@samuelcastro/formik-material-ui",
+  "version": "2.0.0-beta.3",
   "license": "MIT",
   "typings": "dist/main.d.ts",
   "peerDependencies": {
@@ -60,5 +60,5 @@
     "prettier:list": "prettier --list-different \"{src,stories}/**/*.{js,tsx,ts}\"",
     "prepublishOnly": "yarn prettier --list-different && yarn test && yarn build && yarn package"
   },
-  "gitHead": "409cd27bdca327979c0dd7e20edd3ab773620396"
+  "gitHead": "61b5b3662c1fe839a8febf64b19550017732216e"
 }
